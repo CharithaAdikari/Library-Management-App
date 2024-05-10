@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/allmember"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|center_horizontal"
+    android:layout_margin="10dp"
+    android:background="@drawable/cardoutline"
+    android:backgroundTintMode="screen"
+    android:elevation="12dp"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal">
+
+        <!-- Replace the below FrameLayouts with your desired design for member item -->
+
+        <!-- Member Name and Email -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="fill"
+                android:scaleType="center"
+                app:srcCompat="@drawable/icons8_id_verified_80" />
+        </FrameLayout>
+
+        <!-- Member Phone and Address -->
+        <FrameLayout
+            android:layout_width="178dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginLeft="2dp"
+                android:orientation="vertical">
+
+                <!-- Member Name -->
+                <TextView
+                    android:id="@+id/txt_member_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Name"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <!-- Member Email -->
+                <TextView
+                    android:id="@+id/txt_member_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Email"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <!-- Member Phone -->
+                <TextView
+                    android:id="@+id/txt_member_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Phone"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+
+                <!-- Member Address -->
+                <TextView
+                    android:id="@+id/txt_member_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Address"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>
