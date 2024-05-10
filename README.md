@@ -1,8 +1,8 @@
-# Public Libty
+# Public Library
 
 ## Description
 
-Public Libty is a comprehensive library management application designed and developed using Android Studio, Java, and SQLite database. It serves as a robust platform for managing library resources efficiently, providing a seamless experience for both librarians and library patrons.
+Public Library is a comprehensive library management application designed and developed using Android Studio, Java, and SQLite database. It serves as a robust platform for managing library resources efficiently, providing a seamless experience for both librarians and library patrons.
 
 ## Key Features
 
@@ -14,7 +14,7 @@ Public Libty is a comprehensive library management application designed and deve
 
 ## Getting Started
 
-To get started with Public Libty, follow these steps:
+To get started with Public Library, follow these steps:
 
 1. **Clone the Repository:**
 git clone https://github.com/CharithaAdikari/Library-Management-App
@@ -28,7 +28,7 @@ git clone https://github.com/CharithaAdikari/Library-Management-App
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute to Public Libty, please follow these guidelines:
+Contributions are welcome! If you'd like to contribute to Public Library, please follow these guidelines:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/new-feature`).
